@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <base href="{{ .Site.BaseURL }}">
+    {{ partial "header.html" }}
+<body>
+
+    {{ partial "header_top.html" }}
+    {{ partial "nav.html" }}
+
+    {{ $aaa := getJSON "/data/index.json" }}
+    {{ range $aaa.banner }}
+        {{ partial "banner.html" . }}
+    {{ end }}
+    <a id="showHere"></a>
+
+    {{ range $aaa.aboutus }}
+        {{ partial "about_us.html" . }}
+    {{ end }}
+
+    {{ range $aaa.service }}
+        {{ partial "service.html" . }}
+    {{ end }}
+    
+    <section class="portfolio_section bg" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {{ range $aaa.portfolio }}
+                        <h3> <span></span> {{ .subtitle }} </h3>
+                        <h2> {{ .title1 }} <br> {{ .title2 }}</h2>
+                        <p>{{ .desc1 }}</p>
+                        <br>
+                        <p>{{ .desc2 }}</p>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="portfolio_item">
+                <div class="row">
+                    {{ range $aaa.portfolio }}
+                        {{ partial "work.html" . }}
+                    {{ end }}
+                    <div class="view_all_portfolio">
+                        <a href="{{ ref . "work.md" }}" target="_blink">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ range $aaa.ourteam }}
+        {{ partial "team.html" . }}
+    {{ end }}
+
+    {{ range $aaa.ourskills }}
+        {{ partial "skill.html" . }}
+    {{ end }}
+
+    {{ range $aaa.ourTechnology }}
+        {{ partial "technology.html" .}}
+    {{ end }}
+
+    {{ range $aaa.contact }}
+        {{ partial "contact.html" .}}
+    {{ end }}
+
+    <section class="getstart_section bg">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ range $aaa.getstart }}
+                    {{ partial "getstart.html" . }}
+                {{ end }}
+                <a href="{{ ref . "getstarted.md" }}" target="_blink">GET STARTED</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    {{ partial "footer.html" }}
+</body>
+</html>

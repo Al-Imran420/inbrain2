@@ -1,0 +1,168 @@
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="../../images/footer_logo.png" alt="">
+          <div class="social_footer">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="footer_manu">
+          <h2>Navigation</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Skills</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_manu">
+          <h2>Services</h2>
+            <ul>
+              <li><a href="#">iOS App Development</a></li>
+              <li><a href="#">Website Design</a></li>
+              <li><a href="#">E-Commerce Website</a></li>
+              <li><a href="#">Strategy and Research</a></li>
+              <li><a href="#">Management and Marketing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_manu">
+          <h2>Contact Us</h2>
+            <ul>
+              <li><a href="#">Address: iinBrain, LLC 5493 Adobe Falls Rd. San Diego, CA. 92120</a></li>
+              <li><a href="#">Call Us: +1 858 736 6808</a></li>
+              <li><a href="#">Email Us: toocuteformeusa@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p>Copyright © 2012 - 2017 Inbrain team</p>
+    </div>
+  </footer>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. --> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script src="../../js/prefixfree.min.js"></script>
+<script type="text/javascript">
+	$('a[href^="#"]').on('click', function(event) {
+    var target = $( $(this).attr('href') );
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+  });
+
+  $(document).ready(function(){
+		$('.hover').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
+	});
+</script> 
+<script>
+  $(document).ready(function(){ 
+    var touch 	= $('.resp-menu');
+    var menu 	= $('.menu');
+  
+    $(touch).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle();
+    });
+    
+    $(window).resize(function(){
+      var w = $(window).width();
+      if(w > 767 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+      }
+    });
+    
+  });
+</script>
+<script>
+  $(function() {
+    $(".meter > span").each(function() {
+      $(this)
+        .data("origWidth", $(this).width())
+        .width(0)
+        .animate({
+          width: $(this).data("origWidth")
+        }, 1200);
+    });
+  });
+</script>
+<script type="text/javascript" src="../../js/headhesive.js"></script>
+<script>
+    var options = {
+        offset: '#showHere',
+        classes: {
+            clone:   'nav--clone',
+            stick:   'nav--stick',
+            unstick: 'nav--unstick'
+        }
+    };
+    var nav = new Headhesive('.header', options);
+</script>
+<script type="text/javascript" src="../../js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $("#flexiselDemo3").flexisel({
+            visibleItems: 3,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 30000,            
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: { 
+                portrait: { 
+                    changePoint:480,
+                    visibleItems: 1
+                }, 
+                landscape: { 
+                    changePoint:640,
+                    visibleItems: 1
+                },
+                tablet: { 
+                    changePoint:768,
+                    visibleItems: 2
+                }
+            }
+        });
+    });
+</script>
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>

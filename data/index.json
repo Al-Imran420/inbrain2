@@ -1,0 +1,231 @@
+{
+    "banner":[{
+        "subtitle":"Welcome inBrain",
+        "title":"iOS Native Application Development",
+        "desc" : "Give Your Online Presence What It Deserves and Build a Better business With The Support From Us."
+    }],
+    "aboutus":[{
+        "subtitle":"About Us",
+        "title1":"Hello,We",
+        "title2":" Are inBrain",
+        "desc1" : "We are a small software development company. Always we are use all of latest technology in our development methodology. Our goal is make a creative and latest software development for our client.",
+        "desc2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "img":"images/about_us.gif"
+    }],
+    "service":[
+        {
+            "subtitle":"Our Services",
+            "title1":"We Ensure",
+            "title2":"Best Product Quality",
+            "desc1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "img":"images/our_service.gif",
+            "services":[
+                    {
+                        "icon":"images/stratagy_icon.png",
+                        "s_number":"01",
+                        "title":"Strategy & Research",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    },
+                    {
+                        "icon":"images/design_icon.png",
+                        "s_number":"02",
+                        "title":"Design & Development",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    },
+                    {
+                        "icon":"images/management_icon.png",
+                        "s_number":"03",
+                        "title":"Management & Marketing",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    },
+                    {
+                        "icon":"images/ios_icon.png",
+                        "s_number":"04",
+                        "title":"IOS App Development",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    },
+                    {
+                        "icon":"images/android_s_icon.png",
+                        "s_number":"05",
+                        "title":"Android App Development",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    },
+                    {
+                        "icon":"images/e_comarch_icon.png",
+                        "s_number":"06",
+                        "title":"E Commerce Website",
+                        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+                    }
+                ]
+        }
+    ],
+    "portfolio":[
+        {
+            "subtitle":"Our Portfolio",
+            "title1":"Check Some",
+            "title2":"Of Our Recent Work",
+            "desc1" : "We take concepts and build them into finished products. We are capable of architecting an application from the ground up. We can make projects in Swift for iOS, Java for Android, Node.js for backend development (using Express), Angular for Javascript based Single Page Apps",
+            "desc2" : "Most of the work we do is for in-house products, our own ideas that we develop and market directly to consumers.commodo consequat. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "img":"",
+            "viewall":"portfolio.html",
+            "portfolios":[
+                    {
+                        "icon":"images/grabngo_p.jpg",
+                        "alt":"grabngo",
+                        "type":"Web Site",
+                        "title":"Grab N Go Market",
+                        "link":"#",
+                        "link_name":"View Project"
+                    },
+                    {
+                        "icon":"images/toocute_p.jpg",
+                        "type":"Web Site",
+                        "title":"Toocute For Me",
+                        "link":"#",
+                        "link_name":"View Project"
+                    },
+                    {
+                        "icon":"images/alpine_p.jpg",
+                        "type":"Web Site",
+                        "title":"Alpine Coffee",
+                        "link":"#",
+                        "link_name":"View Project"
+                    }
+                ]
+        }
+    ],
+    "ourteam":[
+        {
+            "subtitle":"Our Team",
+            "title1":"Qualified Professionals",
+            "title2":"With Deep Industry Experience",
+            "desc1" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "desc2" : "We're a small, friendly and talented team. We craft beautiful digital solutions for awesome clients across all the platforms.",
+            "img":"images/our_team.gif",
+            "teamimgalt":"our_team",
+            "ourteam_mamber":[
+                    {
+                        "icon":"images/adam.png",
+                        "alt":"adam",
+                        "name":"Adam Arthur",
+                        "title":"Developer",
+                        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                    },
+                    {
+                        "icon":"images/mahamud.png",
+                        "alt":"Mahmudul Hasan",
+                        "name":"Adam Arthur",
+                        "title":"Graphic Designer",
+                        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                    },
+                    {
+                        "icon":"images/imran.png",
+                        "alt":"Imran",
+                        "name":"Imran",
+                        "title":"Developer",
+                        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+                    }
+                ]
+        }
+    ],
+    "ourskills":[
+        {
+            "subtitle":"Our Skills",
+            "title1":"We Are Using",
+            "title2":"Top Class Tools & Techlogies",
+            "desc1" : "We have worked with clients all across the globe in past 5 years. It has been a great learning experience for us. Every project and every client we worked with enhanced out skills in some way or the other.",
+            "img":"images/our_skill.gif",
+            "teamimgalt":"our_skill",
+            "slill":[
+                    {
+                        "icon":"images/db_i.png",
+                        "alt":"database",
+                        "name":"Database Development",
+                        "range":".s{width: 100% }"
+                    },
+                    {
+                        "icon":"images/android_i.png",
+                        "alt":"android",
+                        "name":"Android Development",
+                        "range":"style='width: 100% '"
+                    },
+                    {
+                        "icon":"images/ios_i.png",
+                        "alt":"IOS",
+                        "name":"IOS Development",
+                        "range":"style='width: 100% '"
+                    },
+                    {
+                        "icon":"images/arck_i.png",
+                        "alt":"Software Architecture",
+                        "name":"Software Architecture",
+                        "range":"style='width: 100% '"
+                    },
+                    {
+                        "icon":"images/front-end_i.png",
+                        "alt":"Frontend Development",
+                        "name":"Frontend Development",
+                        "range":"style='width: 100% '"
+                    },
+                    {
+                        "icon":"images/back_end_i.png",
+                        "alt":"Backend Development",
+                        "name":"Backend Development",
+                        "range":"style='width: 100% '"
+                    }
+                ]
+        }
+    ],
+    "ourTechnology":[
+        {
+            "subtitle":"Our Technology",
+            "title1":"Great Technology",
+            "title2":"Support For Your Business",
+            "desc1" : "We take concepts and build them into finished products. We are capable of architecting an application from the ground up. We can make projects in Swift for iOS, Java for Android, Node.js for backend development (using Express), Angular for Javascript based Single Page Apps",
+            "desc2":"Most of the work we do is for in-house products, our own ideas that we develop and market directly to consumers.commodo consequat.",
+            "img":"images/our_technology2.gif",
+            "teamimgalt":"our_technology2",
+            "technology":[
+                    {
+                        "icon":"images/swift_icon.png",
+                        "alt":"Swift",
+                        "name":"Swift for IOS Native App"
+                    },
+                    {
+                        "icon":"images/java_icon.png",
+                        "alt":"Java/Kotlin",
+                        "name":"Java/Kotlin for Native Android"
+                    },
+                    {
+                        "icon":"images/react_icon.png",
+                        "alt":"React",
+                        "name":"Anguler & React Frontd-End"
+                    },
+                    {
+                        "icon":"images/mongodb_icon.png",
+                        "alt":"MongoDB",
+                        "name":"MongoDB For Database"
+                    }
+                ]
+        }
+    ],
+    "contact":[
+        {
+            "subtitle":"Contact Us",
+            "title1":"Feel Free",
+            "title2":"To Talk With Us",
+            "desc1":"Leave us a message, we will get contact with you as soon as possible.",
+            "img":"images/contact_us.gif",
+            "teamimgalt":"contact_us",
+            "buttonval":"SUBMIT"
+        }
+    ],
+    "getstart":[
+        {
+            "title":"Build A Better Product",
+            "desc1":"Lorem ipsum -dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "link":"getstarted.html",
+            "buttonval":"GET STARTED"
+        }
+    ]
+}

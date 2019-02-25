@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "header_inner.html" }}
+<body>
+    {{ partial "header_top.html" }}
+    {{ partial "nav_inner.html" }}
+    <section class="banner_portfolio" id="home">
+      <img src="{{.Site.Data.portfolio.banner}}" alt="">
+    </section>
+    <a id="showHere"></a>
+
+    <section class="portfolio_section" id="work">
+      <div class="container">
+          <div class="portfolio_top">
+              <h1>We Have Done, Lots of work. Let's Check Some here</h1>
+              <div class="tab">
+                  <button class="tablinks active" onclick="openCity(event, 'ECommerce')">E-Commerce</button>
+                  <button class="tablinks" onclick="openCity(event, 'Android')">Android</button>
+                  <button class="tablinks" onclick="openCity(event, 'IOS')">IOS</button>
+                  <button class="tablinks" onclick="openCity(event, 'softwareDevelopment')">Software Development</button>
+              </div>
+          </div>
+
+          <div id="ECommerce" class="portfolio_item tabcontent" style="display: block">
+            <div class="row">
+              {{ range .Site.Data.portfolio.ecommerce}}
+                <div class="col-md-4">
+                  <div class="hover_cont">
+                    <p>{{.type}}</p>
+                    <h2>{{.title}}</h2>
+                    <a href="{{.link}}">{{.link_name}}</a>
+                  </div>
+                  <img src="../../{{.icon}}" alt="{{.alt}}">
+                </div>
+              {{end}}
+            </div>
+          </div>
+
+          <div id="Android" class="portfolio_item tabcontent">
+            <div class="row">
+              {{ range .Site.Data.portfolio.android}}
+                <div class="col-md-4">
+                  <div class="hover_cont">
+                    <p>{{.type}}</p>
+                    <h2>{{.title}}</h2>
+                    <a href="{{.link}}">{{.link_name}}</a>
+                  </div>
+                  <img src="../../{{.icon}}" alt="{{.alt}}">
+                </div>
+              {{end}}
+            </div>
+          </div>
+
+          <div id="IOS" class="portfolio_item tabcontent">
+            <div class="row">
+              {{ range .Site.Data.portfolio.IOS}}
+                <div class="col-md-4">
+                  <div class="hover_cont">
+                    <p>{{.type}}</p>
+                    <h2>{{.title}}</h2>
+                    <a href="{{.link}}">{{.link_name}}</a>
+                  </div>
+                  <img src="../../{{.icon}}" alt="{{.alt}}">
+                </div>
+              {{end}}
+            </div>
+          </div>
+
+          <div id="softwareDevelopment" class="portfolio_item tabcontent">
+            <div class="row">
+              {{ range .Site.Data.portfolio.software}}
+                <div class="col-md-4">
+                  <div class="hover_cont">
+                    <p>{{.type}}</p>
+                    <h2>{{.title}}</h2>
+                    <a href="{{.link}}">{{.link_name}}</a>
+                  </div>
+                  <img src="../../{{.icon}}" alt="{{.alt}}">
+                </div>
+              {{end}}
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section class="getstart_section" style="background: #f6f6f8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            {{ range .Site.Data.portfolio.getstart}}
+              <h1>{{.title}}</h1>
+              <p>{{.desc1}}</p>
+            {{end}}
+            <a href="{{ ref . "getstarted.md" }}" target="_blink">GET STARTED</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ partial "footer_inner.html" }}
+</body>
+</html>
+
+<!--portfolio-->

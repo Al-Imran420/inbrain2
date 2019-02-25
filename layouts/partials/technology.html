@@ -1,0 +1,28 @@
+
+
+  <section class="aboutus_section bg" id="technology">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3> <span></span> {{.subtitle}} </h3>
+          <h2> {{.title1}} <br> {{.title2}} </h2>
+          <p>{{.desc1}}</p>
+          <br>
+          <p>{{.desc2}}</p>
+        </div>
+        <div class="col-md-6">
+          <img src="{{.img}}" alt="{{.teamimgalt}}">
+        </div>
+      </div>
+      <div class="technology_cont">
+        <div class="row">
+          {{ range .technology }}
+          <div class="col-md-3">
+            <img src="{{.icon}}" alt="{{.alt}}">
+            <p>{{.name}}</p>
+          </div>
+          {{end}}   
+        </div>
+      </div>
+    </div>
+  </section>

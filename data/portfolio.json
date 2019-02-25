@@ -1,0 +1,107 @@
+{   
+    "banner":"images/portfolio_banner.jpg",
+    "ecommerce":[
+            {
+                "icon":"images/toocute_p.jpg",
+                "alt":"toocute_p",
+                "type":"E-Commerce",
+                "title":"Toocute For Me",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/alpine_p.jpg",
+                "alt":"alpine_p",
+                "type":"E-Commerce",
+                "title":"Alpine Coffee",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/world_hatch.jpg",
+                "alt":"world_hatch",
+                "type":"E-Commerce",
+                "title":"World Hatch",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/alpine_coffee.jpg",
+                "alt":"alpine_coffee",
+                "type":"E-Commerce",
+                "title":"Alpine Coffee",
+                "link":"#",
+                "link_name":"View Project"
+            }
+    ],
+    "android":[
+            {
+                "icon":"images/braykion.jpg",
+                "alt":"braykion",
+                "type":"Mobile App",
+                "title":"Braykion Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/quickLoan.jpg",
+                "alt":"quickLoan",
+                "type":"Mobile App",
+                "title":"QuickLoan Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/buy_back.jpg",
+                "alt":"buy_back",
+                "type":"Mobile App",
+                "title":"Buy Back Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            }
+    ],
+    "IOS":[
+            {
+                "icon":"images/braykion.jpg",
+                "alt":"braykion",
+                "type":"Mobile App",
+                "title":"Braykion Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/quickLoan.jpg",
+                "alt":"quickLoan",
+                "type":"Mobile App",
+                "title":"QuickLoan Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            },
+            {
+                "icon":"images/buy_back.jpg",
+                "alt":"buy_back",
+                "type":"Mobile App",
+                "title":"Buy Back Mobile App",
+                "link":"#",
+                "link_name":"View Project"
+            }
+    ],
+    "software":[
+            {
+                "icon":"images/grabngo_p.jpg",
+                "alt":"grabngo_p",
+                "type":"Software Development",
+                "title":"Grab N Go Market",
+                "link":"#",
+                "link_name":"View Project"
+            }
+    ],
+    "getstart":[
+        {
+            "title":"Build A Better Product",
+            "desc1":"Lorem ipsum -dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "link":"getstarted.html",
+            "buttonval":"GET STARTED"
+        }
+    ]
+}

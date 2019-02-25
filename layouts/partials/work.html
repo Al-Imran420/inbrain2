@@ -1,0 +1,10 @@
+{{ range .portfolios }}
+  <div class="col-md-4">
+    <div class="hover_cont">
+      <p> {{.type}} </p>
+      <h2> {{.title}} </h2>
+      <a href=" {{.link}} ">{{.link_name}} </a>
+    </div>
+    <img src="{{.icon}}" alt=" {{.alt}} ">
+  </div>
+{{end}}
